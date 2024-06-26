@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="10dp" android:orientation="vertical">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UPDATE HÃNG SẢN PHẨM" android:textColor="#881A1A" android:textSize="25dp" android:textStyle="bold" android:layout_gravity="center_horizontal"/>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="350dp" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginBottom="10dp" android:padding="10dp"/>
+    <com.google.android.material.textfield.TextInputEditText android:id="@+id/txtmadvup" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nhập Mã HSP"/>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="350dp" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginBottom="10dp" android:padding="10dp"/>
+    <com.google.android.material.textfield.TextInputEditText android:id="@+id/txttendvup" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nhập TÊN ĐV"/>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="350dp" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginBottom="10dp" android:padding="10dp"/>
+    <com.google.android.material.textfield.TextInputEditText android:id="@+id/txtdiachihangdv" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nhập Địa Chỉ Hàng"/>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="350dp" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginBottom="10dp" android:padding="10dp"/>
+    <com.google.android.material.textfield.TextInputEditText android:id="@+id/txtanhhangdv" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nhập Ảnh hàng"/>
+    <Button android:id="@+id/btnUpdateForm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginTop="10dp" android:backgroundTint="#2196F3" android:text="Update"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="120dp" android:orientation="horizontal" android:gravity="center">
+    <!--  ImageView to display an image related to the Hang  -->
+    <ImageView android:id="@+id/imgAnhHSp" android:layout_width="100dp" android:layout_height="100dp"/>
+    <LinearLayout android:layout_width="270dp" android:layout_height="wrap_content" android:layout_gravity="center" android:orientation="vertical">
+        <!--  TextView to display MaHang (Category ID)  -->
+        <TextView android:id="@+id/tvMaHang" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#F44336" android:textStyle="bold" android:textSize="18sp" android:text="MaHang Placeholder"/>
+        <!--  TextView to display TenHang (Category Name)  -->
+        <TextView android:id="@+id/tvTenHang" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#2196F3" android:textStyle="bold" android:textSize="14sp" android:text="TenHang Placeholder"/>
+        <!--  TextView to display DiaChiHang (Category Address)  -->
+        <TextView android:id="@+id/tvDiaChiHang" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#2196F3" android:textStyle="bold" android:textSize="14sp" android:text="DiaChiHang Placeholder"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:orientation="horizontal">
+            <!--  Button to perform an action related to updating Hang  -->
+            <Button android:id="@+id/imgupdateHang" android:layout_width="110dp" android:layout_height="42dp" android:layout_gravity="center" android:layout_marginRight="30dp" android:backgroundTint="#2196F3" android:text="UPDATE"/>
+            <!--  Button to perform an action related to deleting Hang  -->
+            <Button android:id="@+id/imgDeleteHang" android:layout_width="110dp" android:layout_height="42dp" android:layout_gravity="center_vertical" android:backgroundTint="#E91E63" android:gravity="center" android:text="Xóa"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--  Horizontal LinearLayout for buttons  -->
+</LinearLayout>

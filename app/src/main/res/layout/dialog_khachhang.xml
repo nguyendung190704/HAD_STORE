@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/edMaKh" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Mã khách hàng" android:inputType="text" android:layout_marginTop="8dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/edTenKh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/edMaKh" android:layout_marginTop="8dp" android:hint="Tên khách hàng" android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/edSoKh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/edTenKh" android:layout_marginTop="8dp" android:hint="Số điện thoại" android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/edEmailKh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/edSoKh" android:layout_marginTop="8dp" android:hint="Email" android:inputType="textEmailAddress"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/edDiaChiKh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/edEmailKh" android:layout_marginTop="8dp" android:hint="Địa chỉ"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/edMatKhauKh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/edAnhKh" android:layout_marginTop="8dp" android:hint="Mật khẩu" android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/edAnhKh" android:layout_width="match_parent" android:layout_height="55dp" android:layout_below="@id/edDiaChiKh" android:layout_marginTop="8dp" android:hint="Ảnh"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_margin="20dp">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnSaveKh" android:text="SAVE" android:backgroundTint="#2196F3" android:layout_marginHorizontal="20dp" android:layout_weight="1"/>
+        <Button android:backgroundTint="#FF9800" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnCancelKh" android:text="Cancel" android:layout_marginHorizontal="20dp" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:id="@+id/imgAnhSp"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvMaGio"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            android:textSize="19dp"/>
+        <TextView
+            android:id="@+id/tvTenSp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tvSoLuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tvDiaChiGio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:inputType="number"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tvThanhTien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:inputType="number"
+            android:textSize="15sp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:text="Đặt"
+            android:layout_marginRight="30dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#2196F3"
+            android:id="@+id/btnDat"/>
+        <Button
+            android:gravity="center"
+            android:text="Xóa "
+            android:backgroundTint="#FF5722"
+            android:id="@+id/imgDeleteGio"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+             />
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

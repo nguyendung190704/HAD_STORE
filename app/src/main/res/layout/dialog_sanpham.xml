@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/edMaSp" android:hint="Mã sản phẩm "  android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:inputType="none"
+        android:focusable="false"
+        android:clickable="false"
+        android:focusableInTouchMode="false"/>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/edTenSp" android:hint="Tên sản phẩm "/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content"  android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/edGiaSp" android:hint="Giá sản phẩm "/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/edSoLuongSp" android:hint="Số Lượng SP"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content"  android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/edtrangthaiSp" android:hint="Trạng thái SP"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/edMaHangSp" android:hint="Mã hãng sản phẩm"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:id="@+id/edMotaSp" android:hint="Mô tả sản phẩm"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="65dp"  android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText android:layout_width="match_parent" android:layout_height="60dp" android:id="@+id/edAnhSp" android:hint="Link ảnh sản phẩm "/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_margin="20dp">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnSaveLS" android:text="SAVE" android:backgroundTint="#2196F3" android:layout_marginHorizontal="20dp" android:layout_weight="1"/>
+        <Button android:backgroundTint="#FF9800" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnCancelsp" android:text="Cancel" android:layout_marginHorizontal="20dp" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

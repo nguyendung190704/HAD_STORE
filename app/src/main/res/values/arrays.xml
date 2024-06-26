@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="phuong_thuc_van_chuyen">
+        <item>Vận chuyển tận nơi</item>
+        <item>Không vận chuyển</item>
+    </string-array>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvMaDon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tvMaGio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tvTrangThaiDon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tvMaKh"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:textSize="12sp"/>
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvTongTien"
+                android:layout_height="wrap_content"
+                android:textColor="#03A9F4"
+                android:textStyle="bold"
+                android:layout_width="240dp"
+                android:textSize="12sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8C7574"
+                android:textStyle="italic"
+                android:layout_gravity="bottom"
+                android:text="DATE : "
+                android:textSize="9sp"/>
+            <TextView
+                android:id="@+id/tvNgayLap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8C7574"
+                android:textStyle="italic"
+                android:layout_marginRight="10dp"
+                android:textSize="9sp"
+                android:layout_gravity="bottom"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgDeleteDh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="#00000000"
+        android:src="@drawable/baseline_delete_forever_24" />
+
+
+
+</LinearLayout>

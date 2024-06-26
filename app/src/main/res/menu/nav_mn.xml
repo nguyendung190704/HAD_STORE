@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:id="@+id/trangchu"
+        android:title="TRANG CHỦ"
+        android:icon="@drawable/baseline_home_24"
+        />
+    <item android:id="@+id/quanlysanpham"
+        android:title="QUẢN LÝ SẢN PHẨM"
+        android:icon="@drawable/icon_dienthoai"
+        />
+
+    <item android:id="@+id/quanlydonhang"
+        android:title="QUẢN LÝ ĐƠN HÀNG"
+        android:icon="@drawable/baseline_format_list_numbered_24"
+
+        />
+
+
+
+    <group android:checkableBehavior="single"
+        >
+        <item android:title="NHÂN VIÊN">
+            <menu >
+                <item android:id="@+id/quanlynhanvien"
+                    android:title="QUẢN LÝ NHÂN VIÊN"
+                    android:icon="@drawable/baseline_personal_injury_24"
+                    />
+                <item android:id="@+id/quanlykhachhang"
+                    android:title="QUẢN LÝ KHÁCH HÀNG"
+                    android:icon="@drawable/baseline_person_24"
+
+                    />
+                <item android:id="@+id/quanlyhangsanpham"
+                    android:title="QUẢN LÝ HÃNG SẢN PHẨM"
+                    android:icon="@drawable/baseline_branding_watermark_24"
+                    />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single"
+        >
+        <item android:title="CHỨC NĂNG KHÁC">
+            <menu >
+                <item android:id="@+id/quanlygiohang"
+                    android:title="GIỎ HÀNG"
+                    android:icon="@drawable/baseline_shopping_cart_24"
+
+                    />
+                <item android:id="@+id/doimatkhau"
+                    android:title="ĐỔI MẬT KHẨU"
+                    android:icon="@drawable/baseline_password_24"
+
+                    />
+                <item android:id="@+id/dangxuat"
+                    android:title="ĐĂNG XUẤT"
+                    android:icon="@drawable/baseline_logout_24"
+
+                    />
+            </menu>
+        </item>
+    </group>
+
+</menu>

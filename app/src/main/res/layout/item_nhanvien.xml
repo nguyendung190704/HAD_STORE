@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/imgAnhNv"/>
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvMaNv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tvTenNv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#143550"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/tvEmailNv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#143550"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/tvSoNv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#143550"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgDeleteNv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="#00000000"
+        android:src="@drawable/baseline_delete_forever_24" />
+
+
+
+</LinearLayout>
